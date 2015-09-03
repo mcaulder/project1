@@ -1,0 +1,10 @@
+.menu-pattern{
+	background: url(sprites.png) no-repeat;
+}
+
+.menu-pattern{
+	background-position: 0 0;
+	width: 1200px;
+	height: 75px;
+}
+

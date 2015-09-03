@@ -1,9 +1,9 @@
 /* General */
 
 body {
-    font-family: "Myriad Pro", Veranda, sans-serif;
-    color: #777777;
-    font-size: 14px; 
+    font-family: "Myriad Pro",Verdana, sans-serif
+    color: grey;
+    font-size: 15px; 
 }
 
 h1 {
@@ -53,7 +53,7 @@ header {
 }
 
 .padhead {
-    padding: 10px;
+    padding: 11px;
 }
 
 .miniral, .question {
@@ -68,14 +68,14 @@ header {
 }
 
 .menu-pattern {
-    background-image: url('images/menu-pattern.png');
+    background-image: url(../images/sprites/menu-pattern.png);
     background-repeat: repeat;
     background-position: center;
     height: 75px; 
 }
 
 .menu-shadows {
-    background-image: url('images/menu-shadows.png');
+    background-image: url(../images/sprites/menu-shadows.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 110px; 
@@ -87,84 +87,97 @@ header {
 }
 
 .icons {
-    margin: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
     display: inline-block;
+    
 }
 
-.menu-marker {
-    position: absolute;
-    top: 91%;
-    left: 24%; 
+.menu-mark{
+    position:absolute
+        left:24%;
+        top:91%;
+     
 }
 
 #menu-dashboard {
-    background-image: url('images/menu-dashboard-blue.png');
+    background-image: url('../images/sprites/menu-dashboard-blue.png');
     width: 60px;
     height: 58px;
+   
+    
+    
 }
 
 #menu-dashboard:hover {
-    background-image: url('images/menu-dashboard-green.png');
+    background-image: url('../images/sprites/menu-dashboard-green.png');
     width: 60px;
     height: 58px;
+    
 }
 
 #menu-customers {
-    background-image: url('images/menu-customers-blue.png');
+    background-image: url('../images/sprites/menu-customers-blue.png');
     width: 60px;
     height: 58px;
+    
 }
 
 #menu-customers:hover {
-    background-image: url('images/menu-customers-green.png');
+    background-image: url('../images/sprites/menu-customers-green.png');
     width: 60px;
     height: 58px;
+   
 }
 
 #menu-messages {
-    background-image: url('images/menu-messages-blue.png');
+    background-image: url('../images/sprites/menu-messages-blue.png');
     width: 60px;
     height: 58px;
+  
 }
 
 #menu-messages:hover {
-    background-image: url('images/menu-messages-green.png');
+    background-image: url('../images/sprites/menu-messages-green.png');
     width: 60px;
     height: 58px;
+    top: 20%;
+    left: 24%;
 }
 
 #menu-promotions {
-    background-image: url('images/menu-promotions-blue.png');
+    background-image: url('../images/sprites/menu-promotions-blue.png');
     width: 60px;
     height: 58px;
+   
 }
 
 #menu-promotions:hover {
-    background-image: url('images/menu-promotions-green.png');
+    background-image: url('../images/sprites/menu-promotions-green.png');
     width: 60px;
     height: 58px;
+    
 }
 
 #menu-pagecreator {
-    background-image: url('images/menu-pagecreator-blue.png');
+    background-image: url('../images/sprites/menu-pagecreator-blue.png');
     width: 60px;
     height: 58px;
 }
 
 #menu-pagecreator:hover {
-    background-image: url('images/menu-pagecreator-green.png');
+    background-image: url('../images/sprites/menu-pagecreator-green.png');
     width: 60px;
     height: 58px;
 }
 
 #menu-analytics {
-    background-image: url('images/menu-analytics-blue.png');
+    background-image: url('../images/sprites/menu-analytics-blue.png');
     width: 60px;
     height: 58px;
 }
 
 #menu-analytics:hover {
-    background-image: url('images/menu-analytics-green.png');
+    background-image: url('../images/sprites/menu-analytics-green.png');
     width: 60px;
     height: 58px;
 }
@@ -221,7 +234,7 @@ header {
 
 
 .container {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -345,7 +358,7 @@ ul {
     text-decoration: none; 
 }
 
-.amount {
+.head-amount {
     float: right;
     border: 1px solid;
     border-color: #eeeeee;
@@ -353,15 +366,15 @@ ul {
     padding: 3px 8px 3px 8px; 
 }
 
-.person {
-    background-image: url("images/avatar-blue.png");
+.head-amount-avatar {
+    background-image: url("../images/sprites/blueava.png");
     width: 20px;
     height: 20px;
     display: inline-block; 
 }
 
-.person:hover {
-    background-image: url("images/avatar-grey.png");
+.head-amount-avatar:hover {
+    background-image: url("../images/sprites/grayman.png");
     width: 20px;
     height: 20px;
     display: inline-block; 
@@ -439,16 +452,8 @@ ul {
     border-color: #eeeeee;
     border-width: 3px 0 3px 3px;
     border-style: solid;
-    -webkit-border-image: 
-      -webkit-gradient(linear, 100% 0, 0 0, from(#eeeeee), to(rgba(0, 0, 0, 0))) 1 100%;
-    -webkit-border-image: 
-      -webkit-linear-gradient(right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%;
-    -moz-border-image:
-      -moz-linear-gradient(right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%;  
-    -o-border-image:
-      -o-linear-gradient(right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%;
-    border-image:
-      linear-gradient(to right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%; 
+    margin-bottom:80px;
+    
 }
 
 .charts-responsive {
@@ -523,9 +528,10 @@ ul {
     bottom: 0;
 }
 
-.cc-indent-left, .cc-flag-right {
+.cc-indent-left, .cc-indent-right {
     position: absolute;
     display: inline-block; 
+    
 }
 
 .cc-indent-left {
@@ -602,7 +608,7 @@ ul {
     padding: 40px 0px 40px 0px; 
 }
 
-/*PROMOS*/
+
 .ads {
     background-color: #2498f4;
     margin: 3px;
