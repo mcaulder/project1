@@ -1,5 +1,22 @@
 /* General */
 
+header {
+    background-color: #208ce3;
+    color: #FFFFFF; 
+    font-size: 1em;
+    text-align: right;
+    padding: 15px 0px 15px 0px; 
+}
+
+.padhead {
+    padding: 11px;
+}
+
+.miniral, .question {
+    border-right: 1px solid;
+    border-color: #eeeeee; 
+}
+
 body {
     font-family: "Myriad Pro",Verdana, sans-serif
     color: grey;
@@ -42,26 +59,6 @@ h2 a:hover {
 .right {
     float: right; 
 }
-
-
-header {
-    background-color: #208ce3;
-    color: #FFFFFF; 
-    font-size: 1em;
-    text-align: right;
-    padding: 15px 0px 15px 0px; 
-}
-
-.padhead {
-    padding: 11px;
-}
-
-.miniral, .question {
-    border-right: 1px solid;
-    border-color: #eeeeee; 
-}
-
-
 
 .menu {
     background-color: #134670; 
@@ -295,7 +292,7 @@ header {
 }
 
 .annorange {
-    color: #fe7f13;
+    color: #ffa500;
     border-right: 1px solid;
     border-color: #eeeeee;
     padding: 18px; 
@@ -654,13 +651,13 @@ ul {
 
 .footer-items{
     text-align: center;
-    color: #b2b2b2;
+    color: #bababa;
     font-size: .9em; 
 }
 
 .footer-items-border {
     border-right: 1px solid;
-    border-color: #b2b2b2;
+    border-color: #bababa;
     padding-left: 5px;
     padding-right: 5px; 
 }
@@ -698,7 +695,7 @@ ul {
     border: 1px solid;
     border-color: #eeeeee;
     border-radius: 2px; 
-    box-shadow: 1px 1px 2px #d9d9d9;
+    box-shadow: 1px 1px 2px #d3d3d3;
     margin-right: 5px;
 }
 
